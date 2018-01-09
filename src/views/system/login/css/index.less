@@ -1,0 +1,76 @@
+@import "../../../../assets/css/init.less";
+body{
+    background: #fff;
+}
+.m-login{
+    input::-webkit-input-placeholder{
+        color: #999
+    }
+    background: #fff;
+
+    padding:0.7rem 0.56rem 0.8rem 0.56rem;
+    input{
+        width: 100%;
+        font-size: 0.24rem;
+        padding: 0.3rem 0;
+        border: none;
+        color: #666;
+        text-indent: 1rem;
+        background: url("../img/phone.jpg") no-repeat 0.3rem 50%;
+        background-size: 0.3rem;
+    }
+    li:nth-of-type(2){
+        margin-bottom: 0.2rem;
+        input{
+            background: url("../img/pass.jpg") no-repeat 0.3rem 50%;
+            background-size: 0.3rem;
+        }
+    }
+
+    li{
+        margin-bottom: 0.5rem;
+        border-bottom: 1px solid #e5e5e5;
+    }
+    .m-yzm{
+        display: flex;
+        align-items: center;
+        ins{
+            display: inline-block;
+            width: 2.2rem;
+            height: 0.6rem;
+            background: @button-color;
+            line-height: 0.6rem;
+            text-align: center;
+            color: #fff;
+            font-size: 0.2rem;
+            border-radius: 20px;
+        }
+    }
+    p{
+        text-align: right;
+        color: #999;
+        margin-bottom: 0.3rem;
+    }
+
+}
+
+.g-button2{
+    button{
+        background: #fff;
+        color: #999;
+        border: 1px solid #ccc;
+    }
+}
+.logo{
+    background: url("../img/logoBg.jpg") no-repeat;
+    background-size: cover;
+    height: 3.35rem;
+    position: relative;
+    a{
+        position: absolute;
+        width: 1rem;
+        height: 1rem;
+        left: 0;
+        top: 0;
+    }
+}

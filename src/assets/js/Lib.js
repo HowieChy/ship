@@ -32,6 +32,8 @@ import C from './conf'; 	//全局的站点配置文件
 import M from './common'; 	//全局的共用事件
 import './iconfont'  //字体库
 
+import './iconfont2' //阿里图标
+
 import vueFilter from './vueFilter';  	//全局过滤器
 
 

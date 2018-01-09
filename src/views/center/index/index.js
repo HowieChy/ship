@@ -1,6 +1,6 @@
 import Vue from 'vue';
 
-import App from './homeApp.vue';
+import App from './indexApp.vue';
 
 import {until, reg } from "assets/js/until";
 
@@ -9,7 +9,7 @@ Vue.prototype.reg = new reg();
 
 require('./css/index.less');
 
-import { msg,loading } from 'hero'
+import { msg } from 'hero'
 
 Vue.use(msg)
 

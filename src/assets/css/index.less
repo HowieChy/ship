@@ -1,16 +1,36 @@
 @import "init";
 body{
-
+    background: #f4f4f4;
 }
-.header{
-    border-bottom: 1px solid #ddd;
+header{
+    height: 0.8rem;
+    background: @button-color;
+    text-align: center;
+    color: #fff;
+    line-height: 0.8rem;
+    font-size: 0.3rem;
+    display: flex;
+    align-items: center;
+    a{
+        width: 0.8rem;
+        height: 0.8rem;
+    }
+    p{
+        flex: 1;
+        padding-right: 0.8rem;
+        text-align: center;
+    }
 }
 .icon {
-    width: 1em; height: 1em;
-    vertical-align: -0.15em;
+    width: 0.4rem;
+    height: 0.8rem;
     fill: currentColor;
     overflow: hidden;
+    svg{
+        width: 0.3rem;
+    }
 }
+
 
 //最多显示2行
 //webpack不会打包-webkit-box-orient
@@ -37,7 +57,7 @@ body{
 }
 
 .g-button{
-    padding: 0 0.3rem;
+    margin-top: 0.6rem;
     button{
         height: 0.9rem;
         line-height: 0.9rem;
@@ -45,5 +65,7 @@ body{
         color: #fff;
         font-size: 0.3rem;
         width: 100%;
+        border-radius: 6px;
+        border: 1px solid @button-color;
     }
 }
